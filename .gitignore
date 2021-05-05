@@ -131,3 +131,4 @@ dmypy.json
 #Bye
 .DS_Store
 config.py
+config.js
