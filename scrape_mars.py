@@ -69,7 +69,7 @@ def mars_facts():
         
     df.columns=['Description','Value']
     
-    return df.to_html(index=False)
+    return df.to_html(formatters={'Description': lambda x: '<b>' + x + '</b>'}, escape=False, index=False)
 
 
 def hemispheres(browser):
