@@ -1,0 +1,50 @@
+
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.jumbotron {
+    background-color: lightgrey;
+    padding: 12px;
+}
+
+
+.mars-news {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.ntext {
+    margin: 12px;
+    padding-left: 0px 0px 0px 12px;
+}
+
+
+.nimage {
+    display: table-cell;
+    vertical-align: top;
+}
+
+
+.nimage img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.mars-featured-image {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.mars-hemispheres {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+}
