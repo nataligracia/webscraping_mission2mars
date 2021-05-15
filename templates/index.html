@@ -27,10 +27,10 @@
         <!-- NASA Mars News Title & Description-->
         <div class="row mars-news">
             <div class="col-md-8 ntext">
-                <div class="media">
-                    <div class="media-body">
+                <div class="source">
+                    <div class="source-body">
                         <h2>Latest Mars News</h2>
-                        <h4 class="media-heading">{{mars.nasa_news_title}}</h4>
+                        <h4 class="source-heading">{{mars.nasa_news_title}}</h4>
                         <p>{{mars.nasa_story_article}}</p>
                     </div>
                 </div>
@@ -43,8 +43,8 @@
         <hr>
 
         <!-- Mars Featured Image -->
-        <div class="row" id="mars-featured-image">
-            <div class="col-md-8">
+        <div class="row mars-featured-image">
+            <div class="col-md-6 feature">
                 <h2>Featured Mars Image</h2>
   
                 <!-- if images is False/None/non-existent, then default to error message -->
@@ -54,7 +54,7 @@
   
         <br>
 
-            <div class="col-md-4">
+            <div class="col-md-6">
             
                 <!-- Mars Facts -->
                 <div class="row" id="mars-facts">

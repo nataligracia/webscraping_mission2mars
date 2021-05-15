@@ -1,16 +1,20 @@
-
+/* Whole Page */
 .container {
     margin: 0px;
     padding: 0px;
 }
 
 
+
+/* Header */
 .jumbotron {
     background-color: lightgrey;
     padding: 12px;
 }
 
 
+
+/* NASA News */
 .mars-news {
     display: table;
     border-collapse: collapse;
@@ -38,6 +42,9 @@
     border: 1px solid;
 }
 
+
+
+/* NASA Featured Image */
 .mars-featured-image {
     display: table;
     border-collapse: collapse;
@@ -45,8 +52,25 @@
 }
 
 
+.feature {
+    margin: 24px;
+    padding-left: 0px 0px 0px 12px;
+    width: 100%;
+    display: table-cell;
+    vertical-align: top;
+}
 
 
+.feature img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+
+
+
+/* Mars Hemispheres */
 .mars-hemispheres {
     display: table;
     border-collapse: collapse;
