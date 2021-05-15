@@ -68,9 +68,8 @@ def mars_facts():
     df = pd.read_html("https://space-facts.com/mars/")[0]
         
     df.columns=['Description','Value']
-    df.set_index('Description',inplace=True)
     
-    return df.to_html()
+    return df.to_html(index=False)
 
 
 def hemispheres(browser):

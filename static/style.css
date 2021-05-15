@@ -1,6 +1,10 @@
 /* Whole Page */
-.container {
-    margin: 0px;
+/* .body {
+    width: 100%
+} */
+
+
+.container-fluid {
     padding: 0px;
 }
 
@@ -21,26 +25,23 @@
     width: 100%;
 }
 
-
-.ntext {
+/* .ntext {
     margin: 24px;
     padding-left: 0px 0px 0px 12px;
     width: 100%;
 }
 
-
 .nimage {
     display: table-cell;
     vertical-align: top;
-}
+} */
 
-
-.nimage img {
+/* .nimage img {
     display: block;
     width: 100%;
     height: auto;
     border: 1px solid;
-}
+} */
 
 
 
@@ -49,17 +50,14 @@
     display: table;
     border-collapse: collapse;
     width: 100%;
+    margin: 12px;
+    padding-left: 0px 0px 0px 12px;
 }
 
-
 .feature {
-    margin: 24px;
-    padding-left: 0px 0px 0px 12px;
-    width: 100%;
     display: table-cell;
     vertical-align: top;
 }
-
 
 .feature img {
     display: block;
@@ -68,20 +66,34 @@
     border: 1px solid;
 }
 
+.mars-facts {
+    display: table-cell;
+    vertical-align: middle;
+}
 
+tr:nth-child(even) {
+    background-color: lightgrey;
+
+}
+
+th {
+    text-align: left;
+
+}
 
 /* Mars Hemispheres */
 .mars-hemispheres {
-    display: table;
     border-collapse: collapse;
     width: 100%;
     margin: 12px;
+    padding-left: 0px 0px 0px 12px;
 }
 
 .thumbnail {
-    display: table-cell;
     vertical-align: top;
     border: 5px solid;
+    margin: 30px;
+    padding-left: 0px 0px 0px 12px;
 }
 
 .thumbnail img {
