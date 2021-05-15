@@ -19,8 +19,9 @@
 
 
 .ntext {
-    margin: 12px;
+    margin: 24px;
     padding-left: 0px 0px 0px 12px;
+    width: 100%;
 }
 
 
@@ -34,6 +35,7 @@
     display: block;
     width: 100%;
     height: auto;
+    border: 1px solid;
 }
 
 .mars-featured-image {
@@ -43,8 +45,23 @@
 }
 
 
+
+
 .mars-hemispheres {
     display: table;
     border-collapse: collapse;
     width: 100%;
+    margin: 12px;
+}
+
+.thumbnail {
+    display: table-cell;
+    vertical-align: top;
+    border: 5px solid;
+}
+
+.thumbnail img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
