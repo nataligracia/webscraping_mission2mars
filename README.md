@@ -29,4 +29,4 @@ In order to view the four hemispheres of Mars, the titles and an image of each w
 https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
 
 # Deployment Preparation
-Using MongoDB and a Flask Application, we imported the scrapped data and images through these tools for deployment.
+Using MongoDB and a Flask Application, an import of the scrapped data and images was completed through these tools for deployment.
