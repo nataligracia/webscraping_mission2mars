@@ -9,14 +9,16 @@
 }
 
 
-
 /* Header */
 .jumbotron {
     background-color: lightgrey;
     padding: 12px;
 }
 
-
+.btn {
+    background-color: orange;
+    color: black;
+}
 
 /* NASA News */
 .mars-news {
@@ -41,8 +43,8 @@
     max-width: 100%;
     height: auto;
     border: 1px solid;
+    border-color: none;
 }
-
 
 
 /* NASA Featured Image */
