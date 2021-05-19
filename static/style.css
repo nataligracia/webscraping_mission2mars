@@ -79,6 +79,8 @@ tr:nth-child(even) {
 th {
     text-align: left;
     font-weight: bold;
+    background-color: orange;
+    color: black;
 }
 
 
@@ -86,7 +88,7 @@ th {
 .mars-hemispheres {
     border-collapse: collapse;
     width: 100%;
-    margin: 35px;
+    margin: 55px;
     padding-left: 0px 0px 0px 12px;
 }
 
