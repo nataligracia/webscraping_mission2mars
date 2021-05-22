@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script>
+
+    async function navigate() {
+        document.body.innerHTML = 'Scraping Successful!';
+        await new Promise(r => setTimeout(r, 2000));
+        window.location.href = '/';
+      }
+
+      fetch('scrapeaction').then(navigate);
+      
+        // load the slow url then navigate
+    </script>
+  </head>
+  <body>
+    Loading...  <!-- Display a fancy loading screen -->
+  </body>
+</html>

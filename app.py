@@ -20,12 +20,17 @@ def index():
     return render_template("index.html", mars=mars)
 
 
-@app.route("/scrape")
-def scrape():
+@app.route("/scrapeaction")
+def scrapeaction():
     mars = mongo.db.mars
     mars_data = scrape_mars.scrape()
     mars.replace_one({}, mars_data, upsert=True)
-    return "Scraping Successful!"
+    return ""
+
+
+@app.route("/scrape")
+def scrape():
+    return render_template("scrape.html")
 
 
 if __name__ == "__main__":
